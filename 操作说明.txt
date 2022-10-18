@@ -1,0 +1,5 @@
+1、进入文件夹，右击git-bash，输入
+git init
+git status
+git add .  #添加全部
+git commit -m 'v1'  #设置版本
