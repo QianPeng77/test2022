@@ -1,10 +1,14 @@
 clear 清屏
+git log
+git reflog
+
 1、进入文件夹，右击git-bash，输入
 git init  初始化
-git status  红色（工作区：新增or修改文件）/绿色（暂存区：已管理，没生成版本）
+git status  红色（工作区：新增or修改文件）/绿色（暂存区：已管理，没生成版本）/(版本区)
 git add .  #添加全部
 git config --global user.email""个人信息配置：用户名&邮箱
 git config --global user.name""
 git commit -m 'v1'  #设置版本
 
-2、
+2、回滚（往前、往后）
+git reset --hard 版本号(git reflog查版本号)
