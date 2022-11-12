@@ -16,6 +16,13 @@ git reset --hard 版本号(可以用git reflog查之后版本号，从而想向�
 
 3、分支（之前版本存在bug，后续版本开发一半，将修复bug及后续开发版本，两个分支合并)
 git branch 
+git branch 分支名     #创建分支
+git checkout 分支名   # 切换到分支上
+git checkout master   # 回到主干线版本，才能进行分支合并
+git merge 分支名      #合并分支
+git branch -d 分支名  #删除已经合并的分支,只能手工处理冲突
+
+
 
 
 ------汇总-----------------------------------
