@@ -1,6 +1,7 @@
 clear 清屏
 git log
 git reflog
+ctrl/shift insert 复制粘贴
 
 1、进入文件夹，右击git-bash，输入
 git init  初始化
@@ -11,7 +12,7 @@ git config --global user.name""
 git commit -m 'v1'  #设置版本
 
 2、回滚（往前、往后）
-git reset --hard 版本号(git reflog查版本号)
+git reset --hard 版本号(可以用git reflog查之后版本号，从而想向后回滚)
 
 3、
 
